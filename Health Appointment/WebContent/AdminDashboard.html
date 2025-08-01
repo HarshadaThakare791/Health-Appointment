@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://thumbs.dreamstime.com/b/healthcare-technology-doctor-using-digital-tablet-icon-medical-network-hospital-background-162019727.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .dashboard {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 400px;
+        }
+
+        h1 {
+            color: #00796b;
+            margin-bottom: 30px;
+        }
+
+        a {
+            display: block;
+            background-color: #4db6ac;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        a:hover {
+            background-color: #00796b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 121, 107, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <h1>What do you want to do?</h1>
+        <a href="AddDoctor.html">Add Doctor Information</a>
+        <a href="DeleteDoctors.html">Delete Doctor Information</a>
+        <a href="ViewDoctorByAdmin.jsp">View All Doctors Information</a>
+        <a href="viewSpecificDoctor.jsp">View Doctor Information</a>
+        <a href="viewAllPatients.jsp">View All Patients Information</a>
+        <a href="viewSpecificPatient.jsp">View Patient Information</a>
+        <a href="index.html">Log out</a>
+    </div>
+
+</body>
+</html>

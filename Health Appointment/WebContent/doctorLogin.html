@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Doctor Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://thumbs.dreamstime.com/b/healthcare-technology-doctor-using-digital-tablet-icon-medical-network-hospital-background-162019727.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.88);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+
+        h1 {
+            color: #00796b;
+            margin-bottom: 25px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 12px 0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4db6ac;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00796b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 121, 107, 0.3);
+        }
+
+        a {
+            display: inline-block;
+            margin: 8px 0;
+            text-decoration: none;
+            color: #0288d1;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 8px 15px;
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #0288d1;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Doctor Login</h1>
+    <form action="DoctorLogin" method="post">
+
+        <input type="text" name="demail" placeholder="Enter email" required><br>
+
+        <input type="password" name="dpassword" placeholder="Password" required><br>
+
+        <input type="submit" value="Login"><br><br>
+
+        <a href="ForgetDoctorPassword.html">Forget Password</a><br>
+        <a href="index.html">Logout your Account</a>
+
+    </form>
+
+</body>
+</html>

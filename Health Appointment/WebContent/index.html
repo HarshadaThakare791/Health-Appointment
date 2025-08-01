@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Hospital Management</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://thumbs.dreamstime.com/b/healthcare-technology-doctor-using-digital-tablet-icon-medical-network-hospital-background-162019727.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 320px;
+        }
+
+        h1 {
+            color: #00796b;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #0288d1;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background-color: #4db6ac;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 10px 0;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 10px;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        button:hover {
+            background-color: #00796b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 121, 107, 0.3);
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+        }
+
+        button a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="Login" method="post">
+        <h1>Book your Health Appointment</h1>
+        <h2>Welcome! Choose your role:</h2>
+
+        <button><a href="adminLogin.html">Login as Admin</a></button><br>
+        <button><a href="doctorLogin.html">Login as Doctor</a></button><br>
+        <button><a href="patientLogin.html">Login as Patient</a></button>
+    </form>
+
+</body>
+</html>

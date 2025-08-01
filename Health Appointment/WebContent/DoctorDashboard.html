@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Doctor Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://thumbs.dreamstime.com/b/healthcare-technology-doctor-using-digital-tablet-icon-medical-network-hospital-background-162019727.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.88);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+
+        h1 {
+            color: #00796b;
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #0288d1;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #0288d1;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>What do you want to do?</h1>
+
+        <a href="ViewAppointment.jsp">View All Appointments</a>
+        <a href="ViewTodayAppointment.jsp">View Today's Appointments</a>
+        <a href="AddPrescript.html">Add Prescription</a>
+        <a href="doctorLogin.html">Log out</a>
+    </div>
+
+</body>
+</html>
